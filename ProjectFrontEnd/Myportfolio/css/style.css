@@ -1,0 +1,635 @@
+/* navbar start */
+body{
+    margin:0px;
+}
+.main-box{
+    width: 100%;
+    height: 625px;
+    background-image: url("../img/img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo span{
+    color:#007bff;
+    position: relative;
+    transition: 0.6px;
+
+}
+.navbar{
+    width: 100%;
+    height: 97px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
+    top:0px;
+    z-index: 90px;
+    transition: 0.6s;
+}
+
+
+.logo{
+    line-height: 1.2;
+    font-size: 2rem;
+    font-weight: 400;
+    position:relative;
+    transition: 0.6s;
+}
+.greetings-box{
+    width: 100%;
+    
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+    
+
+.navbar-nav ul il a{
+    text-decoration: none;
+    margin: 10px;
+    color:rgb(209, 202, 202);
+    overflow: hidden;
+    transition: 0.4s;
+    position:relative;
+    transition: 0.6s;
+
+}
+.navbar-nav ul il a:hover{
+    
+    color:#fff ;
+
+}
+.navbar-nav ul il a:active{
+    color:#fff ;
+    
+
+}
+
+
+#nav-container{
+    color:#fff ;
+}
+    
+
+body{
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height:27.2px;
+    color: gray;
+    font-weight: 410;
+    font-size: 17px; 
+}
+.logo p{
+    padding-left: 30px;
+    display: inline-block;
+
+}
+.logo{
+    display: inline-block;
+}
+.greetings-box{
+    padding-top: 90px;
+}
+.greetings-box button{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 30px;
+    cursor: pointer;
+    padding:14px 30px;
+    border: none;
+    font-size: 16px; 
+    
+}
+.greetings-box button:hover {
+    background-color:white;
+    color: black;
+  }
+.greetings-box h1{
+    font-size:3rem;
+    margin-bottom: 12px;
+    margin-top: 12vh;
+    font-weight: 680;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing:3px;
+
+}
+.greetings-box h3{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom:48px;
+}
+/* navbar end */
+/* about me start */
+.about-item h1{
+   text-align: center;
+   font-size:40px ;
+   color: #007bff;
+   font-weight: 700;
+   margin-bottom: 16px;
+   padding: 80px 0px;
+
+}
+.about-content{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.image-about img{ 
+    width: 540px;
+    height: 360.094;
+    
+}
+
+    
+
+.about-info{
+    
+    width: 445px;
+    height: 424.094px;
+    padding: 15px;
+}
+.info-boxs h2{
+    color: #000;
+    font-size: 27px;
+    margin-bottom: 19px;
+    font-weight: 400;
+    
+}
+.info-boxs p{
+    margin-bottom: 17px;
+}
+
+
+
+/* about me end */
+/* my Features start */
+.Feature-container{
+    margin-bottom: 30px;
+    
+}
+.Feature-head h1{
+   text-align: center;
+   font-size:40px ;
+   color: #007bff;
+   font-weight: 700;
+   margin-bottom: 20px;
+   padding:80px 60px 0px 0px;
+   
+
+}
+.Feature-head h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.Feature-image img{
+    width: 540px;
+    height:360px;
+}
+.Feature-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Feature-image {
+    
+    
+    align-items: center;
+    
+    width: 540px;
+    height:360px;
+}
+.Feature-info h1{
+    font-size:40px;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+.Feature-info h3{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+}
+.Feature-info button{
+    background-color: #007bff;
+    border-radius: 30px;
+    border: none;
+    padding:13px 33px;
+    
+    
+
+}
+.Feature-info button a{
+    text-decoration: none;
+    color:#fff ;
+    font-size: 16px; 
+}
+.active ,.Feature-info button:hover {
+    background-color:black;
+    color: white;
+  }
+.Feature-info{
+    width: 445px;
+    height: 347px;
+    
+    line-height: 1.2;
+    
+}
+.Feature-info p{
+    margin-bottom: 20px;
+}
+
+
+/* my Features end */
+/* my Portfolio start */
+
+.my-portfolio h1{
+    font-size:40px;
+    color: #007bff;
+    font-weight: 700;
+    margin: 50px;
+    text-align: center;
+
+}
+.my-portfolio {
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.my-portfolio-item{
+    display: flex;
+    justify-content: center;
+}
+.my-portfolio-item button{
+    
+    background-color: #007bff;
+    border-radius: 20px;
+    border: none;
+    padding:10px 25px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+      
+}
+.my-portfolio-item button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    width: 20px;
+    height: 15px;
+}
+.my-portfolio-item button a:hover{
+    color: black;   
+}
+.active,.my-portfolio-item button:hover {
+    background-color:rgb(236, 233, 233);
+  }
+.my-portfolio-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 6px;
+    width: 1110px;
+    margin-left: 6em;
+    
+    
+    
+}
+.my-portfolio-info div img{
+    width:100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    
+}
+.my-portfolio-info div{
+    width: 253px;
+    
+    
+}
+/* my Portfolio end */
+/*My skills start  */
+.skill-box h1{
+    font-size:40px ;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.skill-info{
+    width: 1140px;
+    height: 554px;
+    margin: 0 auto; 
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.skill-box{
+    width: 100%;
+    height: 666px;
+    background-color: rgb(236, 233, 233);
+    
+    padding-top: 2em;
+    padding-bottom:2em;
+    margin-top: 30px;
+    
+}
+.skill-info div{
+    
+    height: 253px;
+    padding: 15px;
+    
+}
+.skill-info div h2{
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 480;
+}
+.skill-info div a{
+    font-size: 18.5px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-decoration: none;
+    color: #007bff;
+    
+
+}
+.skill-info div h3{
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 1.3;
+    
+}
+.my-portfolio-info div:first-child{
+    height: 281px;
+} 
+.my-portfolio-info div:nth-child()
+
+
+
+
+/*My skills end */
+/*Testimonials start */
+
+/*Testimonials end */
+/*Contact start*/
+.main-contact-container {
+    font-size:40px;
+    color: #007bff;
+    font-weight: 700;
+    margin: 50px;
+    text-align: center;
+}
+   
+.contact-item-boxs h1{
+    font-size:40px;
+    color: #007bff;
+    font-weight: 700;
+    margin: 50px;
+    text-align: center;
+
+}
+.contact-info{
+    width: 1140px;
+    height: 114px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content:center;
+
+}
+.contact-boxs{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-boxs p{
+    color: gray;
+}
+.contact-boxs a{
+    color: #007bff;
+    text-decoration: none; 
+    
+}
+.contact-boxs span{
+    color: #007bff;
+     
+}
+.contact-boxs{
+    width: 379.98px;
+    height: 114px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-contact-container{
+    width: 1349px; 
+    height: 1071px;
+    padding:80px 0px; 
+    background-color: rgb(236, 233, 233);
+    margin-top: 30px;
+    
+}
+.contact-main-item{
+    width: 1014px;
+    height:653px;
+    padding: 48px;
+    margin: 4em;
+    margin-left: 5.6em;
+    background-color:#fff;
+    
+}
+.name-info-boxs{
+    display: flex;
+    justify-content: space-between;
+} 
+.contact-item label{
+    display:block ;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: #000;
+}
+.contact-item input{
+    width: 100%;
+    height: 29px;
+    border-radius: 30px;
+    border: 1px solid #ced4da;
+    padding: 6px 12px;
+    outline: none;
+}
+.contact-item input:focus {
+    border: 1px solid #007bff ;
+  }
+.name-info input{
+    width: 466px;
+    outline: none;
+}
+.name-info input:focus{
+    border: 1px solid #007bff ; 
+}
+.message-container{
+    display: grid;
+}
+.message-container textarea{
+    margin-bottom: 4px;
+    resize: vertical;
+    border-radius: 30px;
+    border: 1px solid #ced4da;
+    padding: 4px 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    outline: none;
+}
+.message-container textarea:focus{
+    border: 1px solid #007bff ;
+}
+.message-container button{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 30px;
+    border: none;
+    padding:10px 30px;
+    
+    cursor: pointer;
+    margin-top: 23px;
+    width: 167px;
+    height: 44px;
+    
+}
+.message-container button a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.active, .message-container button:hover {
+    background-color:black;
+    color: white;
+  }
+
+.contact-main-item h3{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom:48px;
+    color: #000;
+}
+/*Contact end */
+/* end */
+.main-end-container{
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+   
+}   
+.end-container{
+    width: 1050px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 7fr 3fr 4fr 5fr;
+    gap: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-top: 7rem;
+
+    
+}
+.main-end-container i{
+    margin: 0px 10px;
+    color: grey;
+}
+
+.main-end-container h3{
+    line-height:2;
+    color: #fff; 
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 120;
+}
+.main-end-container a{
+    color: grey;
+    text-decoration: none;
+    display: block;
+}
+.main-end-container p{
+    color: grey;
+    
+}
+.end-box{
+    border-left:#fff;
+    width:700px;
+    height:70px;
+}
+
+.send-message{
+    display: flex;
+}
+.send-message input{
+    height: 45px;
+    width: 180px;
+    background-color:#333333 ;
+    border: 1px solid gray;
+    border-right:none;
+    border-radius: 20px;
+}
+.send-message button{
+    height: 35px;
+    width: 90px;
+    padding: 17px 20px 29px 20px ;
+    border: none;
+    margin: auto 0px;
+    border: 1px solid gray;
+    border-right:none;
+    border-radius: 20px;
+
+
+}
+.end-box{
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-top: 1px solid gray;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* end */
+
+
